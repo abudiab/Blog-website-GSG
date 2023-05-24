@@ -8,6 +8,7 @@ import Article from "./pages/Article";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Layout from "./components/Layout";
+import "./style.scss";
 
 const router = createBrowserRouter([
   {
