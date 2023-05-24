@@ -1,4 +1,4 @@
-$lightgreen: #b9e7e7;
+$primaryColor: #b9e7e7;
 
 .app {
   display: flex;
@@ -17,7 +17,7 @@ $lightgreen: #b9e7e7;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      background-color: $lightgreen;
+      background-color: $primaryColor;
 
       h1 {
         font-size: 20px;
@@ -92,7 +92,7 @@ $lightgreen: #b9e7e7;
           }
 
           .edit {
-            background-color: $lightgreen;
+            background-color: $primaryColor;
             width: 50px;
             height: 50px;
             border-radius: 5px;
@@ -109,6 +109,28 @@ $lightgreen: #b9e7e7;
             }
           }
         }
+      }
+    }
+
+    //Footer
+
+    footer {
+      margin-top: 100px;
+      padding: 20px;
+      background-color: $primaryColor;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      img {
+        height: 50px;
+      }
+      .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
       }
     }
   }
