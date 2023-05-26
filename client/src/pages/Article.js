@@ -2,6 +2,7 @@ import React from "react";
 import Edit from "../assets/edit.png";
 import Delete from "../assets/delete.png";
 import { Link } from "react-router-dom";
+import SimilarPosts from "../components/SimilarPosts";
 
 const Article = () => {
   return (
@@ -54,7 +55,7 @@ const Article = () => {
           deserunt repellendus numquam ab vel perspiciatis corporis!
         </p>
       </div>
-      <div className="menu"></div>
+      <SimilarPosts />
     </div>
   );
 };
