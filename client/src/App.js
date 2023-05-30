@@ -3,7 +3,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Homepage from "./pages/Homepage";
 import Error from "./pages/Error";
-import Edit from "./pages/Edit";
+import Write from "./pages/Write";
 import Article from "./pages/Article";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Homepage /> },
       { path: "/post/:id", element: <Article /> },
-      { path: "/edit", element: <Edit /> },
+      { path: "/write", element: <Write /> },
     ],
   },
   {

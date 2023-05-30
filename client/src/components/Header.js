@@ -24,7 +24,7 @@ const Header = () => {
           <span>John</span>
           <span>Logout</span>
           <span className="edit">
-            <Link className="link" to="/edit">
+            <Link className="link" to="/write">
               Write
             </Link>
           </span>
